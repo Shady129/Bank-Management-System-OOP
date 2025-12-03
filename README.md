@@ -85,6 +85,10 @@ Choose option: _
 ```
 
 ---
-
+### 🚀 How to Run
+```bash
+git clone https://github.com/Shady129/Bank-OOP-Management-System.git
+```
+Open the project in **Visual Studio** and run.
 
 
