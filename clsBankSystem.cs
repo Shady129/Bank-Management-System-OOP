@@ -15,23 +15,6 @@ namespace BankOOPProject.Classes
         static List<clsClient> clsClients = new List<clsClient>();
 
 
-
-
-        public static void LoadDemoClients()
-        {
-            Console.WriteLine("How many clients do you want to add?");
-            int count = Convert.ToInt32(Console.ReadLine());
-
-            for (int i = 0; i < count; i++)
-            {
-
-                Console.WriteLine($"\nEnter the client {1 + i}");
-                AddNewClient();
-            }
-            Console.WriteLine("\nAll demo clients added successfully!");
-
-        }
-
       public static clsClient FindClientByAccountNumber(string accountNumber)
         {
 
@@ -428,3 +411,4 @@ namespace BankOOPProject.Classes
         }
     }
 }
+
